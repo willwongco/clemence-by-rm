@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{
+ {
   "sections": {
     "image_banner": {
       "type": "image-banner",
@@ -15,8 +15,22 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
+            "heading": "AMV X Bienveillance",
             "heading_size": "h0"
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "Introducing our AMV X Bienveillance Sweater",
+            "text_style": "subtitle"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "In a range of four uplifting colours, each sweatshirt features a hand drawn flower emblazoned with th eword bienveillance (the French word for kindness and godwill). The sweatshirts, made from American Vintage's signature, ultra soft fabrics add a relaxed casual vibe to any look. With limited availability the sweatshirt is available in our IFC store and online while stocks last.",
+            "text_style": "body"
           }
         },
         "button": {
@@ -33,19 +47,178 @@
       },
       "block_order": [
         "heading",
+        "subtitle",
+        "text",
         "button"
       ],
       "settings": {
+        "image": "shopify://shop_images/Clemence_Banner.jpg",
         "image_overlay_opacity": 40,
-        "image_height": "large",
+        "image_height": "medium",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
-        "image_behavior": "none",
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-3",
+        "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
-        "show_text_below": false
+        "show_text_below": false,
+        "padding_top": 0,
+        "padding_bottom": 16
+      }
+    },
+    "marquee": {
+      "type": "section-marquee",
+      "blocks": {
+        "item_01": {
+          "type": "item",
+          "settings": {
+            "richtext": "<h2>Introducing Clémence</h2><p>by Rue Madame</p>",
+            "color_background": "#49361b",
+            "color_text": "#e79076"
+          }
+        },
+        "item_02": {
+          "type": "item",
+          "settings": {
+            "richtext": "<p>\"Clémence by rue Madame\" is a new concept store that celebrates the Parisian style, a forever young and fun-loving spirit.</p>",
+            "color_background": "#d9b3a6",
+            "color_text": "#b35126"
+          }
+        },
+        "item_03": {
+          "type": "item",
+          "settings": {
+            "richtext": "<h2>Introducing Clémence</h2><p>by Rue Madame</p>",
+            "color_background": "#f6c042",
+            "color_text": "#111111"
+          }
+        },
+        "item_04": {
+          "type": "item",
+          "settings": {
+            "richtext": "<p>The collection brings freshness and newness to the modern women’s wardrobe with a non-stop stream of affordable mini collections that are relevant yet timeless.</p>",
+            "color_background": "#49361b",
+            "color_text": "#e79076"
+          }
+        },
+        "item_05": {
+          "type": "item",
+          "settings": {
+            "richtext": "<h2>Introducing Clémence</h2><p>by Rue Madame</p>",
+            "color_background": "#d9b3a6",
+            "color_text": "#b35126"
+          }
+        },
+        "item_06": {
+          "type": "item",
+          "settings": {
+            "richtext": "<p>Fashion is a medium to express Clémence woman unique personality and enrich her multifaceted life.</p>",
+            "color_background": "#f6c042",
+            "color_text": "#111111"
+          }
+        }
+      },
+      "block_order": [
+        "item_01",
+        "item_02",
+        "item_03",
+        "item_04",
+        "item_05",
+        "item_06"
+      ],
+      "settings": {
+        "color_bg": "#ffffff",
+        "rotation_duration": 10,
+        "rotation_duration_mobile": 8,
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
+    "marquee_alternate": {
+      "type": "section-marquee",
+      "blocks": {
+        "item_01": {
+          "type": "item",
+          "settings": {
+            "richtext": "<h2>Introducing Clémence</h2><p>by Rue Madame</p>",
+            "color_background": "",
+            "color_text": "#b35126"
+          }
+        },
+        "item_02": {
+          "type": "item",
+          "settings": {
+            "richtext": "<p>\"Clémence by rue Madame\" is a new concept store that celebrates the Parisian style, a forever young and fun-loving spirit.</p>",
+            "color_background": "",
+            "color_text": "#b35126"
+          }
+        },
+        "item_03": {
+          "type": "item",
+          "settings": {
+            "richtext": "<h2>Introducing Clémence</h2><p>by Rue Madame</p>",
+            "color_background": "",
+            "color_text": "#b35126"
+          }
+        },
+        "item_04": {
+          "type": "item",
+          "settings": {
+            "richtext": "<p>The collection brings freshness and newness to the modern women’s wardrobe with a non-stop stream of affordable mini collections that are relevant yet timeless.</p>",
+            "color_background": "",
+            "color_text": "#b35126"
+          }
+        },
+        "item_05": {
+          "type": "item",
+          "settings": {
+            "richtext": "<h2>Introducing Clémence</h2><p>by Rue Madame</p>",
+            "color_background": "",
+            "color_text": "#b35126"
+          }
+        },
+        "item_06": {
+          "type": "item",
+          "settings": {
+            "richtext": "<p>Fashion is a medium to express Clémence woman unique personality and enrich her multifaceted life.</p>",
+            "color_background": "",
+            "color_text": "#b35126"
+          }
+        },
+        "item_07": {
+          "type": "item",
+          "settings": {
+            "richtext": "<h2>Introducing Clémence</h2><p>by Rue Madame</p>",
+            "color_background": "",
+            "color_text": "#b35126"
+          }
+        },
+        "item_08": {
+          "type": "item",
+          "settings": {
+            "richtext": "<p>She always finds joie de vivre in her daily life. Clémence is your trusted girlfriend whom you love hanging out with for fashion advice.</p>",
+            "color_background": "",
+            "color_text": "#b35126"
+          }
+        }
+      },
+      "block_order": [
+        "item_01",
+        "item_02",
+        "item_03",
+        "item_04",
+        "item_05",
+        "item_06",
+        "item_07",
+        "item_08"
+      ],
+      "settings": {
+        "color_bg": "#d9b3a6",
+        "rotation_duration": 10,
+        "rotation_duration_mobile": 8,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "featured_collection": {
@@ -56,29 +229,75 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "full_width": false,
+        "collection": "featured",
+        "products_to_show": 5,
+        "columns_desktop": 5,
+        "full_width": true,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
         "image_shape": "default",
-        "show_secondary_image": true,
+        "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "quick_add": "none",
+        "quick_add": "standard",
         "columns_mobile": "2",
+        "swipe_on_mobile": true,
         "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "collection_tabs": {
+      "type": "section-collection-tabs",
+      "blocks": {
+        "collection_01": {
+          "type": "collection",
+          "settings": {
+            "title": "",
+            "collection": "tops-shirts"
+          }
+        },
+        "collection_02": {
+          "type": "collection",
+          "settings": {
+            "title": "",
+            "collection": "dresses-jumpsuits"
+          }
+        },
+        "collection_03": {
+          "type": "collection",
+          "settings": {
+            "title": "",
+            "collection": "jewellery"
+          }
+        }
+      },
+      "block_order": [
+        "collection_01",
+        "collection_02",
+        "collection_03"
+      ],
+      "settings": {
+        "title": "Best-Sellers",
+        "heading_size": "h2",
+        "richtext": "",
+        "color_bg": "#ffffff",
+        "color_text": "#000000",
+        "columns_desktop": 5,
+        "columns_tablet": 4,
+        "columns_mobile": 3,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "marquee",
+    "marquee_alternate",
+    "featured_collection",
+    "collection_tabs"
   ]
 }

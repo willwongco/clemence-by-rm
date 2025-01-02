@@ -562,6 +562,11 @@ h1, h2, h3, h4, h5, .h0, .h1, .h2, .h3, .h4, .h5 {
   font-size: revert;
 }
 
+.tmx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .tmb-0 {
   margin-bottom: 0;
 }
@@ -574,12 +579,20 @@ h1, h2, h3, h4, h5, .h0, .h1, .h2, .h3, .h4, .h5 {
   margin-top: 0;
 }
 
+.tmb-16 {
+  margin-bottom: 64px;
+}
+
 .thidden {
   display: none;
 }
 
 .tpb-16 {
   padding-bottom: 64px;
+}
+
+.ttext-xs {
+  font-size: 12px;
 }
 
 @media (min-width: 990px) {

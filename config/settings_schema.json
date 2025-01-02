@@ -127,6 +127,27 @@
       },
       {
         "type": "header",
+        "content": "Subheading"
+      },
+      {
+        "type": "font_picker",
+        "id": "type_subheader_font",
+        "default": "assistant_n4",
+        "label": "t:settings_schema.typography.settings.type_header_font.label",
+        "info": "t:settings_schema.typography.settings.type_header_font.info"
+      },
+      {
+        "type": "range",
+        "id": "subheading_scale",
+        "min": 100,
+        "max": 150,
+        "step": 5,
+        "unit": "%",
+        "label": "t:settings_schema.typography.settings.heading_scale.label",
+        "default": 100
+      },
+      {
+        "type": "header",
         "content": "t:settings_schema.typography.settings.header__2.content"
       },
       {
@@ -198,6 +219,34 @@
         "default": 8,
         "unit": "px",
         "label": "t:settings_schema.layout.settings.spacing_grid_vertical.label"
+      },
+      {
+        "type": "header",
+        "content": "Block Radius"
+      },
+      {
+        "type": "range",
+        "id": "block_radius",
+        "min": 0,
+        "max": 40,
+        "step": 2,
+        "default": 12,
+        "unit": "px",
+        "label": "Block radius"
+      },
+      {
+        "type": "header",
+        "content": "Block Offset"
+      },
+      {
+        "type": "range",
+        "id": "block_offset",
+        "min": 0,
+        "max": 40,
+        "step": 2,
+        "default": 16,
+        "unit": "px",
+        "label": "Block offset"
       }
     ]
   },
