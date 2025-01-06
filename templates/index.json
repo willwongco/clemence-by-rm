@@ -58,13 +58,52 @@
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-6",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false,
         "padding_top": 0,
         "padding_bottom": 16
+      }
+    },
+    "collage_CFKCVq": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "collection_XBU4pj": {
+          "type": "collection",
+          "settings": {
+            "collection": "tops-shirts"
+          }
+        },
+        "collection_ANaQRY": {
+          "type": "collection",
+          "settings": {
+            "collection": "dresses-jumpsuits"
+          }
+        },
+        "collection_98nJ7E": {
+          "type": "collection",
+          "settings": {
+            "collection": "jewellery"
+          }
+        }
+      },
+      "block_order": [
+        "collection_XBU4pj",
+        "collection_ANaQRY",
+        "collection_98nJ7E"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "marquee": {
@@ -225,7 +264,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Featured products",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -238,7 +277,6 @@
         "enable_desktop_slider": false,
         "color_scheme": "scheme-1",
         "image_ratio": "portrait",
-        "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
@@ -281,13 +319,27 @@
       ],
       "settings": {
         "title": "Best-Sellers",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "richtext": "",
         "color_bg": "#ffffff",
         "color_text": "#000000",
         "columns_desktop": 5,
         "columns_tablet": 4,
         "columns_mobile": 3,
+        "image_ratio": "portrait",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ig_placeholder": {
+      "type": "section-ig-placeholder",
+      "settings": {
+        "heading": "Follow us",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -295,9 +347,11 @@
   },
   "order": [
     "image_banner",
+    "collage_CFKCVq",
     "marquee",
     "marquee_alternate",
     "featured_collection",
-    "collection_tabs"
+    "collection_tabs",
+    "ig_placeholder"
   ]
 }

@@ -575,32 +575,18 @@ h1, h2, h3, h4, h5, .h0, .h1, .h2, .h3, .h4, .h5 {
   margin-bottom: 56px;
 }
 
-.tmt-0 {
-  margin-top: 0;
-}
-
 .tmb-16 {
   margin-bottom: 64px;
 }
 
-.thidden {
-  display: none;
+.tmt-0 {
+  margin-top: 0;
+}
+
+.tgap-4 {
+  gap: 16px;
 }
 
 .tpb-16 {
   padding-bottom: 64px;
-}
-
-.ttext-xs {
-  font-size: 12px;
-}
-
-@media (min-width: 990px) {
-  .lg\:tblock {
-    display: block;
-  }
-
-  .lg\:thidden {
-    display: none;
-  }
 }

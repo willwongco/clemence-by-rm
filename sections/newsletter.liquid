@@ -15,6 +15,12 @@
   }
 {%- endstyle -%}
 
+<style>
+  .section .newsletter{
+    margin-bottom: var(--block-offset);
+  }
+</style>
+
 <div class="newsletter center {% if section.settings.full_width == false %}newsletter--narrow page-width{% endif %}">
   <div class="newsletter__wrapper color-{{ section.settings.color_scheme }} gradient content-container isolate{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
     {%- for block in section.blocks -%}
@@ -124,7 +130,7 @@
 {
   "name": "t:sections.newsletter.name",
   "tag": "section",
-  "class": "section",
+  "class": "section section-outer",
   "disabled_on": {
     "groups": ["header"]
   },

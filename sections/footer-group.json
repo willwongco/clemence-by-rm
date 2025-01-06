@@ -7,22 +7,91 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{
+ {
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "newsletter_fkHkm8": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_mtnGqa": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_XND9me": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
+          }
+        },
+        "email_form_HQzUym": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_mtnGqa",
+        "paragraph_XND9me",
+        "email_form_HQzUym"
+      ],
+      "settings": {
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "footer": {
       "type": "footer",
+      "blocks": {
+        "link_list_AAhtcn": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Visit Us",
+            "menu": "footer-visit-us"
+          }
+        },
+        "link_list_txfcfz": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Useful Information",
+            "menu": "footer-useful-information"
+          }
+        },
+        "link_list_rxF9XE": {
+          "type": "link_list",
+          "settings": {
+            "heading": "About Us",
+            "menu": "footer-about-us"
+          }
+        },
+        "link_list_xtX3Kw": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Legal",
+            "menu": "footer-legal"
+          }
+        }
+      },
+      "block_order": [
+        "link_list_AAhtcn",
+        "link_list_txfcfz",
+        "link_list_rxF9XE",
+        "link_list_xtX3Kw"
+      ],
       "settings": {
-        "color_scheme": "scheme-1",
-        "newsletter_enable": true,
+        "color_scheme": "scheme-4",
+        "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": true,
         "enable_language_selector": true,
         "payment_enable": true,
-        "show_policy": true,
+        "show_policy": false,
         "margin_top": 0,
         "padding_top": 36,
         "padding_bottom": 36
@@ -30,6 +99,7 @@
     }
   },
   "order": [
+    "newsletter_fkHkm8",
     "footer"
   ]
 }
